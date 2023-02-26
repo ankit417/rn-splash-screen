@@ -52,3 +52,9 @@ in AndroidManifest.xml in Activity Tag.
         android:theme="@style/SplashTheme"
         android:exported="true">
 ```
+
+## Help
+
+```bash
+  rn-splash-screen-gen help
+```
