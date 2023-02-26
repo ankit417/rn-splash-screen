@@ -1,6 +1,6 @@
 {
   "name": "rn-splash-screen-gen",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "react native splash screen scafold for android",
   "main": "index.js",
   "scripts": {
