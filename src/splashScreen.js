@@ -40,7 +40,17 @@ const makeStyles = () => {
 
 exports.splashScreen = () => {
   const CURR_DIR = process.cwd();
-  fs.mkdirSync(`${CURR_DIR}/android/app/src/main/res/drawable`);
+  const drawablePath = `${CURR_DIR}/android/app/src/main/res/drawable`;
+  try {
+    fs.access(drawablePath, function (err) {
+      if (err) {
+        fs.mkdirSync(`${CURR_DIR}/android/app/src/main/res/drawable`);
+      }
+    });
+  } catch (e) {
+    console.log(e);
+  }
+
   const splash = `${CURR_DIR}/android/app/src/main/res/drawable/background_splash.xml`;
   fs.writeFileSync(splash, makeSplash(), "utf8");
 
