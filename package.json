@@ -1,0 +1,32 @@
+{
+  "name": "rn-splash-screen",
+  "version": "1.0.0",
+  "description": "react native splash screen scafold for android",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "rn-splash-screen": "./index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ankit417/rn-splash-screen.git"
+  },
+  "keywords": [
+    "react-native",
+    "react",
+    "android",
+    "splash",
+    "splash-screen"
+  ],
+  "author": "Ankit",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ankit417/rn-splash-screen/issues"
+  },
+  "homepage": "https://github.com/ankit417/rn-splash-screen#readme",
+  "dependencies": {
+    "jimp": "^0.22.7"
+  }
+}
