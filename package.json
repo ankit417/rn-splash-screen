@@ -1,5 +1,5 @@
 {
-  "name": "rn-splash-screen",
+  "name": "rn-splash-screen-gen",
   "version": "1.0.0",
   "description": "react native splash screen scafold for android",
   "main": "index.js",
@@ -7,7 +7,7 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "bin": {
-    "rn-splash-screen": "./index.js"
+    "rn-splash-screen-gen": "./index.js"
   },
   "repository": {
     "type": "git",
