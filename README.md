@@ -26,8 +26,8 @@ rn-splash-screen-gen generate:splash
 
 This command creates res/drawable folder if doesn't exists.  
 creates res/drawable/background_splash.xml file.  
-creates res/values/colors.xml.  
-creates res/values/styles.xml.
+creates/updates res/values/colors.xml.  
+creates/updates res/values/styles.xml.
 
 ### Finally
 
